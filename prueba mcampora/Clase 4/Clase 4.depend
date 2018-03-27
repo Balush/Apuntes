@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1522154223 source:c:\test\prueba mcampora\clase 4\main.c
+	<stdio.h>
+	<stdlib.h>
+
