@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1521550120 source:c:\test\culeao\main.c
+	<stdio.h>
+	<stdlib.h>
+
