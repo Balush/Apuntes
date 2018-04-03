@@ -3,17 +3,14 @@
 
 int main()
 {
-  int a, b, fact = 1;
+    int a = 5, b, fact = 1;
+    for (b = a; b > 1; b--)
+    {
+        fact = fact * b;
+    }
+    printf("El factorial de %d = %d\n", a, fact);
 
-  printf("Escribe un numero para calcular su factorial\n");
-  scanf("%d", &a);
-
-  for (b = a; b > 1; b--)
-{
-    fact = fact * b;
+    return 0;
 }
-  printf("El factorial de %d = %d\n", a, fact);
 
-  return 0;
-}
 
